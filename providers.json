@@ -7,7 +7,7 @@
     "callbackURL": "http://localhost:3000/auth/facebook/callback",
     "authPath": "/auth/facebook",
     "callbackPath": "/auth/facebook/callback",
-    "successRedirect": "/api/Users/me",
+    "successRedirect": "http://localhost:9000/index.html",
     "scope": ["public_profile"]
   },
   "google-login": {
@@ -16,10 +16,10 @@
     "strategy": "OAuth2Strategy",
     "clientID": "96178484285-ogmi32ollh4mr4btog2fvfjmmk6c5mqr.apps.googleusercontent.com",
     "clientSecret": "JzgRN0cea9YQ7mdrbtww_0WN",
-    "callbackURL": "https://bonsai-manager.mybluemix.net/auth/google/callback/auth/google/callback",
+    "callbackURL": "https://bonsai-manager.mybluemix.net/auth/google/callback",
     "authPath": "/auth/google",
     "callbackPath": "/auth/google/callback",
-    "successRedirect": "/api/Users/me",
+    "successRedirect": "/index.html",
     "scope": ["email", "profile"]
   },
   "twitter-login": {
@@ -29,7 +29,7 @@
     "callbackURL": "https://bonsai-manager.mybluemix.net/auth/twitter/callback",
     "authPath": "/auth/twitter",
     "callbackPath": "/auth/twitter/callback",
-    "successRedirect": "/api/Users/me",
+    "successRedirect": "https://bonsai-manager.mybluemix.net/index.html",
     "consumerKey": "6f9TtmeVg4jB9OSgvSU40LR86",
     "consumerSecret": "sxPpahCjsKvOTEj5ED6i6n1hNjqXD88E4cIoJWgkzUvHkpgWNv"
   }
