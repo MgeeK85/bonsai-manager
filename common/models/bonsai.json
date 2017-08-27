@@ -3,10 +3,10 @@
   "plural": "Bonsais",
   "base": "PersistedModel",
   "idInjection": true,
-  "forceId": false,
   "options": {
     "validateUpsert": true
   },
+  "forceId": false,
   "properties": {
     "name": {
       "type": "string",
@@ -30,13 +30,22 @@
     "pot": {
       "type": "string"
     },
+    "note": {
+      "type": "string"
+    },
     "updated_at": {
       "type": "date",
       "defaultFn": "now"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "image": {
+      "type": "hasOne",
+      "model": "Image",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",

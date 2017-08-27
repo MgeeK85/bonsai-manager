@@ -47,5 +47,13 @@
   "Bonsai": {
     "dataSource": "dev",
     "public": true
+  },
+  "Container": {
+    "dataSource": "filestore",
+    "public": true
+  },
+  "Image": {
+    "dataSource": "filestore",
+    "public": true
   }
 }
